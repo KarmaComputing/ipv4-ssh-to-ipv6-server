@@ -1,0 +1,4 @@
+Host ipv6server
+    User root
+      ProxyCommand ssh {{ tcp_proxy }} 'nc -6 {{ ipv6 }} 22'
+

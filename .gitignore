@@ -1,0 +1,7 @@
+.env
+*.swp
+venv
+__pycache__
+files_to_mount/ssh_config/known_hosts*
+files_to_mount/ssh_config/id_rsa*
+files_to_mount/ssh_config/config
